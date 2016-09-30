@@ -10,8 +10,8 @@
  *  on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License
  *  for the specific language governing permissions and limitations under the License.
  *
- *  Author: SmartThings
- *  Date: 2016-01-19
+ *  Author: Zhangyafen390@126.com
+ *  Date: 2016-09-30
  *
  *  This DTH should serve as the generic DTH to handle RGBW ZigBee HA devices
  */
@@ -33,6 +33,8 @@ metadata {
         fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0300,0B04,FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY A19 RGBW", deviceJoinName: "OSRAM LIGHTIFY LED A19 RGBW"
         fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0300,0B04,FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY BR RGBW", deviceJoinName: "OSRAM LIGHTIFY LED BR30 RGBW"
         fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0300,0B04,FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY RT RGBW", deviceJoinName: "OSRAM LIGHTIFY LED RT 5/6 RGBW"
+        fingerprint profileId: "0104", inClusters: "0000,0003,0004,0005,0006,0008,0300,0B04,FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "LIGHTIFY FLEX OUTDOOR RGBW", deviceJoinName: "OSRAM LIGHTIFY OUTDOOR RGBW Flex"
+        fingerprint profileId: "C05E", inClusters: "0000,0003,0004,0005,0006,0008,0300,0B04,FC0F", outClusters: "0019", manufacturer: "OSRAM", model: "PAR 16 50 RGBW - LIGHTIFY", deviceJoinName: "OSRAM LIGHTIFY RGBW PAR 16 50"
     }
 
     // UI tile definitions
